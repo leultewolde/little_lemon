@@ -1,0 +1,37 @@
+#root {
+    display: flex;
+    flex-flow: column;
+    margin-inline: 70px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+header {
+    padding: 10px;
+}
+
+nav {
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    flex-flow: row;
+}
+
+nav ul li {
+    margin-inline: 10px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a:hover {
+    color: teal;
+}
+
+main {
+}
