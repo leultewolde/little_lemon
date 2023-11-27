@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&family=Markazi+Text:wght@400;500&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Karla', sans-serif;
+    /* font-size: 16pt; */
+    color: #333333;
+}
+
 #root {
     display: flex;
     flex-flow: column;
@@ -7,24 +21,64 @@
 }
 
 header {
+    display: inline-flex;
+    gap: 4em;
     padding: 10px;
 }
 
-nav {
-}
+nav {}
 
 nav ul {
     list-style: none;
     display: inline-flex;
     flex-flow: row;
+    gap: 1em;
 }
 
-nav ul li {
-    margin-inline: 10px;
+nav ul li {}
+
+input {
+    font-family: "karla", sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+::placeholder {
+    color: #949494;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #333333;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #333333;
+}
+
+h1,
+h2 {
+    font-family: 'Markazi Text', serif;
+}
+
+h1 {
+    font-size: 64pt;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+h3 {
+    font-size: 18pt;
 }
 
 a {
     text-decoration: none;
+    color: #333333;
     cursor: pointer;
     color: inherit;
 }
@@ -34,4 +88,13 @@ a:hover {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer {
+    margin-top: 20px;
+    /* position: absolute;
+    bottom: 0; */
 }
